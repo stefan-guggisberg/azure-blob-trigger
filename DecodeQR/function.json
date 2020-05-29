@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "uploadedBlob",
+      "type": "blobTrigger",
+      "path": "external/{name}",
+      "connection": "AzureWebJobsStorage",
+      "dataType": "binary",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
